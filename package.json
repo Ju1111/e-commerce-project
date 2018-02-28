@@ -1,0 +1,24 @@
+{
+  "name": "e-commerce_project",
+  "version": "1.0.0",
+  "description": "products",
+  "main": "index.js",
+  "repository": "git@github.com:Ju1111/homework_week3.git",
+  "author": "Julia",
+  "license": "MIT",
+  "scripts": {
+  "start": "node .",
+  "dev": "nodemon --inspect .",
+  "sequelize": "node_modules/.bin/sequelize"
+},
+  "dependencies": {
+    "express": "^4.16.2",
+    "pg": "6",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.34.1",
+    "sequelize-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
