@@ -1,0 +1,12 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "my_password",
+    "database": "postgres",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
+"production": {
+  "use_env_variable": "postgres://rppvtyaommdpbb:2a284286b6842a2a35eddf7a939446bb158da81c08ba580a9d360586e42bb523@ec2-54-221-207-184.compute-1.amazonaws.com:5432/d1ckmg95pbojk"
+}
