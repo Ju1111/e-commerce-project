@@ -1,2 +1,4 @@
+server/config/config.json
+server/node_modules
+node_modules
 config/config.json
-node_nodules
